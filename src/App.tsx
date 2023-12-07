@@ -11,7 +11,7 @@ function App() {
           <img src={contentDocument?.image} alt="" />
         </div>
 
-        <a href="https://instagram.com/wendel.8" target="_blank">@{contentDocument?.instaName}</a>
+        <a href="https://www.instagram.com/wendel.8" target="_blank">@{contentDocument?.instaName}</a>
 
         <ul className="links_container">
             {contentDocument?.links?.map((element, index) => (
